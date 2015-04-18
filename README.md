@@ -1,7 +1,10 @@
 # Proyecto Oracle
-Proyecto I . Bases de Datos II
+Allan Rojas Duran
+
+
+# Proyecto I  Bases de Datos II
 ITCR - Cartago 
-Lic. José A. Stradi Granados, M. Sc.
+Profesor : Lic. José A. Stradi Granados, M. Sc.
 
 
 En la Carpeta "Entregables" se encuentran divididas en carpetas especificadas por nombre
