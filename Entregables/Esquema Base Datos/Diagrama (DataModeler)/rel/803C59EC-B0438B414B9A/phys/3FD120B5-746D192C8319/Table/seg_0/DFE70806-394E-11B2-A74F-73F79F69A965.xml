@@ -1,0 +1,41 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="VALORES" directorySegmentName="seg_0" id="DFE70806-394E-11B2-A74F-73F79F69A965">
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:11 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<schemaObject>0106CD54-5BC3-CC4A-FF00-A2394A105B84</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>8F45C963-66F7-8D15-9D66-6FA79A7D5B5A</segment>
+<tableSpace>5180B114-E96F-6169-EDCB-730F1A694F1F</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="FECHA" id="2262033D-3012-3AA0-B491-7C1DF648AD79">
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:30 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MES" id="3A112568-9094-2A15-53FB-A1F327C176ED">
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:30 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PRECIODOLAR" id="98C5CF84-CC23-E553-8CF6-6850DE9E27AB">
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:30 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VALORES" id="DF8DD4F3-CE19-0A37-FA7C-CF7C1E33BC76">
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:30 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+</TableProxyOraclev11g>

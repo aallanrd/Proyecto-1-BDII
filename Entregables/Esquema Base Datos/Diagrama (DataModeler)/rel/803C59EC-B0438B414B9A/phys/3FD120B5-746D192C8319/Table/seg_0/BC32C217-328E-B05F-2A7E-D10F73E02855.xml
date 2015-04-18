@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="FACTURACOMPRA" directorySegmentName="seg_0" id="BC32C217-328E-B05F-2A7E-D10F73E02855">
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:11 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<schemaObject>0106CD54-5BC3-CC4A-FF00-A2394A105B84</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>660BA072-C565-3A22-6D56-8C2BC3C4F111</segment>
+<tableSpace>5180B114-E96F-6169-EDCB-730F1A694F1F</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="SYS_C0010376" id="EC693668-5BA8-C384-045D-1069E19F85D7">
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:30 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<schemaObject>0106CD54-5BC3-CC4A-FF00-A2394A105B84</schemaObject>
+<segment>C6C8AF6E-FA35-5EE5-8120-768645D02FA9</segment>
+<tableSpace>5180B114-E96F-6169-EDCB-730F1A694F1F</tableSpace>
+</IndexProxy>
+</indexProxies>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="PROVEEDOR" id="1FDDF38E-718C-2023-D8C5-CC8678D4CDE0">
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:21 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UNIDADMEDIDA" id="453D36C5-5103-9815-479E-252E25AFD1BB">
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:21 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PRECIOARTICULO" id="9536D8B1-1404-4420-36FC-C874E45A6B6B">
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:21 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="USUARIOINSERTA" id="A0632BB5-B4DF-128D-ACFC-0CDBAB5CD3D2">
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:21 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NUMEROFACTURA" id="DDA36422-C6BC-FF1F-16F1-8DA66899AD97">
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:21 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CANTIDAD" id="DE0E8431-12BB-2AD2-257E-BC0426D24954">
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:21 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODIGOARTICULO" id="DEC6C44F-68B3-33B0-4834-903E22FBF3D2">
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:21 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHACOMPRA" id="FFE27A15-2C86-055D-1B89-23CA174E49EF">
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:21 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FACT_USER_FK" id="4EBE904C-D633-7D3C-243E-F47451F7E56C">
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:30 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FACT_UNIDAD_FK" id="5AB5C78A-BA15-7653-C152-3EED46CC247E">
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:30 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FACT_PROVEE_FK" id="AB7460F7-5415-6C0D-D6FB-3431B5D7D2BB">
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:30 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="SYS_C0010376" id="01B772D0-8EDF-4D5F-7013-7D43E790E38C">
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:30 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<segment>C6C8AF6E-FA35-5EE5-8120-768645D02FA9</segment>
+<tableSpace>5180B114-E96F-6169-EDCB-730F1A694F1F</tableSpace>
+<existingIndex>EC693668-5BA8-C384-045D-1069E19F85D7</existingIndex>
+<indexSegment>C6C8AF6E-FA35-5EE5-8120-768645D02FA9</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

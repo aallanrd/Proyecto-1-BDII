@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.storage.oracle.v12c.StorageDesignOraclev12c>
+   <object objectType="TSpace" objectID="24784B79-926D-27D5-D8F8-91A00DAF56BA" name="PROYECTO" seqName="seg_0"/>
+   <object objectType="TSpace" objectID="5180B114-E96F-6169-EDCB-730F1A694F1F" name="PROYECTOADB" seqName="seg_0"/>
+   <object objectType="User" objectID="AFB655CF-CAC1-4A3E-474D-D22BC9FE9EDB" name="C##ADB" seqName="seg_0"/>
+   <object objectType="User" objectID="MDSYS" name="MDSYS" seqName="seg_0"/>
+   <object objectType="User" objectID="PUBLIC" name="PUBLIC" seqName="seg_0"/>
+   <object objectType="SType" objectID="47E390DE-0671-C4B1-8428-0F45CBEE18F8" name="SDO_GEOMETRY" seqName="seg_0"/>
+   <object objectType="SType" objectID="F72C39E0-D1CA-8821-2AD7-A1E95A37D3D1" name="XMLTYPE" seqName="seg_0"/>
+   <object objectType="Table" objectID="26076716-107F-AEE1-FCAB-A65991AB4CB2" name="ENSAMBLADO" seqName="seg_0"/>
+   <object objectType="Table" objectID="2BD716CF-EC10-1B27-5BD0-E4772403F9F9" name="PROVEEDORES" seqName="seg_0"/>
+   <object objectType="Table" objectID="2C95603C-B02F-AAEA-6E73-D2C68EF1AD35" name="CLIENTES" seqName="seg_0"/>
+   <object objectType="Table" objectID="33C0261B-833A-3766-E880-FD9B213E7E52" name="APARTADOS" seqName="seg_0"/>
+   <object objectType="Table" objectID="3F61DB6E-4A8A-F756-5F2E-9EA5FC29DDC9" name="PRECIOSPRUEBA" seqName="seg_0"/>
+   <object objectType="Table" objectID="4E8B1CC9-A13C-F2E9-4C97-49387715FD31" name="COTIZACION" seqName="seg_0"/>
+   <object objectType="Table" objectID="743D2922-242A-AF13-1E89-FD02E885E15E" name="FAMILIA" seqName="seg_0"/>
+   <object objectType="Table" objectID="88FB13FB-4386-7BD6-5E35-CB7F24DABE2B" name="CONTACTOS" seqName="seg_0"/>
+   <object objectType="Table" objectID="91CE5F35-E780-86E7-5564-F9F014450093" name="BITACORA" seqName="seg_0"/>
+   <object objectType="Table" objectID="AEE1B6D6-84C2-9454-AF27-6F6F1D2D3B4E" name="USUARIOS" seqName="seg_0"/>
+   <object objectType="Table" objectID="B3F2B50D-A1CA-B92F-530F-CD6923EB420F" name="DIRECCIONES" seqName="seg_0"/>
+   <object objectType="Table" objectID="BC32C217-328E-B05F-2A7E-D10F73E02855" name="FACTURACOMPRA" seqName="seg_0"/>
+   <object objectType="Table" objectID="C2B286F7-6E9B-0010-F3CA-14E6C80147BE" name="LISTAPRECIOS" seqName="seg_0"/>
+   <object objectType="Table" objectID="C61573B1-DB7F-A8FB-1E6E-699AA487F80F" name="INDICEECONOMICO" seqName="seg_0"/>
+   <object objectType="Table" objectID="C6BD64A7-4FE6-8B46-A452-B4E1A0A63988" name="TELEFONOS" seqName="seg_0"/>
+   <object objectType="Table" objectID="CBA8BB28-129D-5E90-4102-36D157B2C249" name="UNIDADMEDIDA" seqName="seg_0"/>
+   <object objectType="Table" objectID="DFE70806-394E-11B2-A74F-73F79F69A965" name="VALORES" seqName="seg_0"/>
+   <object objectType="Table" objectID="E7ECED49-31CB-7A2F-6138-65DA13B33F71" name="ARTICULO" seqName="seg_0"/>
+   <object objectType="Table" objectID="E96F0B6B-D61E-70B7-5513-C6F9A3C4DF88" name="ARTICULOSCOTIZADOS" seqName="seg_0"/>
+   <object objectType="Segment" objectID="54BD33AD-407F-C1A5-80FA-DF69DBEFBDE7" name="Storage1" seqName="seg_0"/>
+   <object objectType="Segment" objectID="8F45C963-66F7-8D15-9D66-6FA79A7D5B5A" name="Storage11" seqName="seg_0"/>
+   <object objectType="Segment" objectID="660BA072-C565-3A22-6D56-8C2BC3C4F111" name="Storage2" seqName="seg_0"/>
+   <object objectType="Segment" objectID="C6C8AF6E-FA35-5EE5-8120-768645D02FA9" name="Storage20" seqName="seg_0"/>
+   <object objectType="Segment" objectID="E146EA8D-4144-81BD-ECDB-EC07790654FB" name="Storage21" seqName="seg_0"/>
+   <object objectType="Trigger" objectID="ADC3B139-7926-CFB4-C427-91CC0F78DE13" name="FACT_BIR" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.storage.oracle.v12c.StorageDesignOraclev12c>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="ADBOracle" id="803C59EC-221C-3810-9B83-B0438B414B9A" mainViewID="A3178EA3-474F-25A7-A991-BB8837CF7922">
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:09 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>3FD120B5-9F4E-6278-D5E2-746D192C8319</selectedRDBMSSite>
+<importConnectionStamps>
+<importConnectionStamp class="oracle.dbtools.crest.imports.DBConnectionStamp">
+<connName>ADBOracle</connName>
+<connUrl>jdbc:oracle:thin:@localhost:1521/pdborcl</connUrl>
+<connUser>C##ADB</connUser>
+<connType>1</connType>
+</importConnectionStamp>
+</importConnectionStamps>
+</relationalModel>

@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="LISTAPRECIOS" directorySegmentName="seg_0" id="C2B286F7-6E9B-0010-F3CA-14E6C80147BE">
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:11 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<schemaObject>0106CD54-5BC3-CC4A-FF00-A2394A105B84</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>54BD33AD-407F-C1A5-80FA-DF69DBEFBDE7</segment>
+<tableSpace>5180B114-E96F-6169-EDCB-730F1A694F1F</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CODIGO" id="85BF0A9F-8D36-51B3-AFE1-13A3467575AC">
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DESCRIPCION" id="9953588D-6E51-8D13-F90C-972057CCD681">
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="LISTAPRECIOS_PK" id="3EC8592F-9812-458E-5D9B-C6CD2B1FBFB0">
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:30 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<schemaObject>0106CD54-5BC3-CC4A-FF00-A2394A105B84</schemaObject>
+<segment>E146EA8D-4144-81BD-ECDB-EC07790654FB</segment>
+<tableSpace>5180B114-E96F-6169-EDCB-730F1A694F1F</tableSpace>
+<indexSegment>E146EA8D-4144-81BD-ECDB-EC07790654FB</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

@@ -1,0 +1,224 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E7ECED49-31CB-7A2F-6138-65DA13B33F71" name="ARTICULO">
+<sourceConnName>ADBOracle</sourceConnName>
+<sourceObjSchema>C##ADB</sourceObjSchema>
+<sourceObjName>ARTICULO</sourceObjName>
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:11 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<schemaObject>0106CD54-5BC3-CC4A-FF00-A2394A105B84</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGOARTICULO" id="4CBFA34B-D145-D599-037A-960A213C40F1">
+<sourceConnName>ADBOracle</sourceConnName>
+<sourceObjSchema>ARTICULO</sourceObjSchema>
+<sourceObjName>CODIGOARTICULO</sourceObjName>
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:13 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FAMILIA" id="A0B6A45B-4CC0-822C-4DE6-CE2C93BB8AE1">
+<sourceConnName>ADBOracle</sourceConnName>
+<sourceObjSchema>ARTICULO</sourceObjSchema>
+<sourceObjName>FAMILIA</sourceObjName>
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:13 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<delegate>F5D3A922-4E37-1A12-D0F5-A8734D5D92C4</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BF75E9F5-7FE9-D3B0-5FD1-2EF4B13E873B" referredColumn="F5D3A922-4E37-1A12-D0F5-A8734D5D92C4"/>
+</associations>
+</Column>
+<Column name="PRECIODOLAR" id="379C10C1-DFD6-79D3-C406-DFF0DD678BEC">
+<sourceConnName>ADBOracle</sourceConnName>
+<sourceObjSchema>ARTICULO</sourceObjSchema>
+<sourceObjName>PRECIODOLAR</sourceObjName>
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:13 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USUARIOINSERTA" id="1E295E0C-9069-9ACB-E242-964821370E1A">
+<sourceConnName>ADBOracle</sourceConnName>
+<sourceObjSchema>ARTICULO</sourceObjSchema>
+<sourceObjName>USUARIOINSERTA</sourceObjName>
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:13 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<delegate>77AF8416-BB7D-DD68-E84A-3F6B386F26E3</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FA6EF4F0-E111-8FAF-65CA-A3BF0F8916B5" referredColumn="77AF8416-BB7D-DD68-E84A-3F6B386F26E3"/>
+</associations>
+</Column>
+<Column name="USUARIOACTUALIZA" id="EB01B034-EFA8-91DE-914F-A3B3CA6B8AB3">
+<sourceConnName>ADBOracle</sourceConnName>
+<sourceObjSchema>ARTICULO</sourceObjSchema>
+<sourceObjName>USUARIOACTUALIZA</sourceObjName>
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:13 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<delegate>77AF8416-BB7D-DD68-E84A-3F6B386F26E3</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E4933FE1-AA52-E923-BC4D-9B5D7D7968DE" referredColumn="77AF8416-BB7D-DD68-E84A-3F6B386F26E3"/>
+</associations>
+</Column>
+<Column name="FECHAULTIMOUPDATE" id="1093F895-037E-BEE8-B057-F2D6E5A402F1">
+<sourceConnName>ADBOracle</sourceConnName>
+<sourceObjSchema>ARTICULO</sourceObjSchema>
+<sourceObjName>FECHAULTIMOUPDATE</sourceObjName>
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:13 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CANTIDAD" id="6E646EF9-DE74-8BF1-22A1-0E67FF3811AD">
+<sourceConnName>ADBOracle</sourceConnName>
+<sourceObjSchema>ARTICULO</sourceObjSchema>
+<sourceObjName>CANTIDAD</sourceObjName>
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:13 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UNIDADMEDIDA" id="9BEC032D-8F3D-F70D-16C9-CED3CD9198CF">
+<sourceConnName>ADBOracle</sourceConnName>
+<sourceObjSchema>ARTICULO</sourceObjSchema>
+<sourceObjName>UNIDADMEDIDA</sourceObjName>
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:13 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<delegate>9C5C94F5-9515-0D96-BD49-ECBCE229C0F8</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6404B2BA-BB6F-1FDE-67EC-2B9C969ECAE6" referredColumn="9C5C94F5-9515-0D96-BD49-ECBCE229C0F8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6436E710-F547-6A6D-A1CD-A002C96F7D6C" name="SYS_C0010370">
+<sourceConnName>ADBOracle</sourceConnName>
+<sourceObjSchema>C##ADB</sourceObjSchema>
+<sourceObjName>SYS_C0010370</sourceObjName>
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:30 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4CBFA34B-D145-D599-037A-960A213C40F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8C734CC9-5346-D36B-5361-62A29CA14F0A" name="SYS_C0010370">
+<sourceConnName>ADBOracle</sourceConnName>
+<sourceObjSchema>C##ADB</sourceObjSchema>
+<sourceObjName>SYS_C0010370</sourceObjName>
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:30 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>0106CD54-5BC3-CC4A-FF00-A2394A105B84</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4CBFA34B-D145-D599-037A-960A213C40F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F26BCE95-096F-230F-75F7-FEA65A3571C1" name="ART_FAMILIA_FK">
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:30 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A0B6A45B-4CC0-822C-4DE6-CE2C93BB8AE1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B85ADC54-1623-94CA-3A93-7F0D83DB906B" name="ART_UNIDAD_FK">
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:30 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9BEC032D-8F3D-F70D-16C9-CED3CD9198CF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="83BBBC7E-4406-625B-2DB8-06B369DF51A5" name="ART_USERA_FK">
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:30 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB01B034-EFA8-91DE-914F-A3B3CA6B8AB3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C528ADEB-9E50-12DE-F3AA-DF170D392701" name="ART_USERI_FK">
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:30 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E295E0C-9069-9ACB-E242-964821370E1A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

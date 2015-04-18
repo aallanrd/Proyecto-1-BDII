@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableSpaceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableSpaceOraclev10g" name="PROYECTOADB" directorySegmentName="seg_0" id="5180B114-E96F-6169-EDCB-730F1A694F1F">
+<sourceConnName>ADBOracle</sourceConnName>
+<sourceObjSchema>C##ADB</sourceObjSchema>
+<sourceObjName>PROYECTOADB</sourceObjName>
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:11 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<emUniformSize>0</emUniformSize>
+<extentManagement>LOCAL</extentManagement>
+</TableSpaceOraclev10g>

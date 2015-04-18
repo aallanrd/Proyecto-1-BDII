@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="26076716-107F-AEE1-FCAB-A65991AB4CB2" name="ENSAMBLADO">
+<sourceConnName>ADBOracle</sourceConnName>
+<sourceObjSchema>C##ADB</sourceObjSchema>
+<sourceObjName>ENSAMBLADO</sourceObjName>
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:11 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<schemaObject>0106CD54-5BC3-CC4A-FF00-A2394A105B84</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGOARTICULO" id="139189B2-010E-DD70-A5F9-1C41A47F62EA">
+<sourceConnName>ADBOracle</sourceConnName>
+<sourceObjSchema>ENSAMBLADO</sourceObjSchema>
+<sourceObjName>CODIGOARTICULO</sourceObjName>
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:20 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="CCC2E593-8EFC-F53A-FC92-8BA9291C044F">
+<sourceConnName>ADBOracle</sourceConnName>
+<sourceObjSchema>ENSAMBLADO</sourceObjSchema>
+<sourceObjName>NOMBRE</sourceObjName>
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:20 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<delegate>4CBFA34B-D145-D599-037A-960A213C40F1</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="04368385-45BF-0431-B2DC-953DF5035C33" referredColumn="4CBFA34B-D145-D599-037A-960A213C40F1"/>
+</associations>
+</Column>
+<Column name="DESCRIPCION" id="472E32EC-F285-A61E-6B60-1DF841EBB6EF">
+<sourceConnName>ADBOracle</sourceConnName>
+<sourceObjSchema>ENSAMBLADO</sourceObjSchema>
+<sourceObjName>DESCRIPCION</sourceObjName>
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:20 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E3FD7142-89FE-1D0C-C881-05CA1A44C28E" name="ENSAMBLADO_PK">
+<sourceConnName>ADBOracle</sourceConnName>
+<sourceObjSchema>C##ADB</sourceObjSchema>
+<sourceObjName>SYS_C0011564</sourceObjName>
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:30 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<schemaObject>0106CD54-5BC3-CC4A-FF00-A2394A105B84</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="139189B2-010E-DD70-A5F9-1C41A47F62EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="089B55BF-934B-CC20-E221-739D7D1E847C" name="ENSAMBLADO_ARTICULO_FK">
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:30 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CCC2E593-8EFC-F53A-FC92-8BA9291C044F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

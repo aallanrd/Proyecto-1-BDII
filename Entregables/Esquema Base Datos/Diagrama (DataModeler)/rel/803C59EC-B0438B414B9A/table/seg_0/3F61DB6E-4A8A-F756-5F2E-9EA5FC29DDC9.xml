@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3F61DB6E-4A8A-F756-5F2E-9EA5FC29DDC9" name="PRECIOSPRUEBA">
+<sourceConnName>ADBOracle</sourceConnName>
+<sourceObjSchema>C##ADB</sourceObjSchema>
+<sourceObjName>PRECIOSPRUEBA</sourceObjName>
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:11 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<schemaObject>0106CD54-5BC3-CC4A-FF00-A2394A105B84</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO" id="516A25C8-E113-EA21-96CD-3F833351A84E">
+<sourceConnName>ADBOracle</sourceConnName>
+<sourceObjSchema>PRECIOSPRUEBA</sourceObjSchema>
+<sourceObjName>CODIGO</sourceObjName>
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:25 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LISTAPRECIO" id="F9BD4A09-6FFC-D876-FD8F-C1F796C960E6">
+<sourceConnName>ADBOracle</sourceConnName>
+<sourceObjSchema>PRECIOSPRUEBA</sourceObjSchema>
+<sourceObjName>LISTAPRECIO</sourceObjName>
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:25 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<delegate>85BF0A9F-8D36-51B3-AFE1-13A3467575AC</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4EC7AFDF-04A1-D471-A379-379368C18600" referredColumn="85BF0A9F-8D36-51B3-AFE1-13A3467575AC"/>
+</associations>
+</Column>
+<Column name="PRECIO" id="1D26B96E-A5EF-C50A-7297-8A30AE63E594">
+<sourceConnName>ADBOracle</sourceConnName>
+<sourceObjSchema>PRECIOSPRUEBA</sourceObjSchema>
+<sourceObjName>PRECIO</sourceObjName>
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:25 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGOARTICULO" id="6BE67287-2061-C32D-C130-097C0DBBE226">
+<sourceConnName>ADBOracle</sourceConnName>
+<sourceObjSchema>PRECIOSPRUEBA</sourceObjSchema>
+<sourceObjName>CODIGOARTICULO</sourceObjName>
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:25 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<delegate>4CBFA34B-D145-D599-037A-960A213C40F1</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6E5AF367-37C0-4C86-AF09-09F41CBBFD61" referredColumn="4CBFA34B-D145-D599-037A-960A213C40F1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B2BA1B4B-F75D-678A-4628-D4D36BD0F712" name="PRECIOSPRUEBA_PK">
+<sourceConnName>ADBOracle</sourceConnName>
+<sourceObjSchema>C##ADB</sourceObjSchema>
+<sourceObjName>SYS_C0011573</sourceObjName>
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:30 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<schemaObject>0106CD54-5BC3-CC4A-FF00-A2394A105B84</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="516A25C8-E113-EA21-96CD-3F833351A84E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C93AC78B-F01D-38A9-D7D5-116FA238ADAA" name="PRECIO_ARTICULO_FK">
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:30 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6BE67287-2061-C32D-C130-097C0DBBE226"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="58823858-158A-33D7-F06F-1D94B3F03491" name="PRECIO_LISTA_FK">
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:30 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F9BD4A09-6FFC-D876-FD8F-C1F796C960E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

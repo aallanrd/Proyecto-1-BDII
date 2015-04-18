@@ -1,0 +1,201 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="91CE5F35-E780-86E7-5564-F9F014450093" name="BITACORA">
+<sourceConnName>ADBOracle</sourceConnName>
+<sourceObjSchema>C##ADB</sourceObjSchema>
+<sourceObjName>BITACORA</sourceObjName>
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:11 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<schemaObject>0106CD54-5BC3-CC4A-FF00-A2394A105B84</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO" id="3F633E9D-D043-59AB-BDA0-84C5FAD7BBB6">
+<sourceConnName>ADBOracle</sourceConnName>
+<sourceObjSchema>BITACORA</sourceObjSchema>
+<sourceObjName>CODIGO</sourceObjName>
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:15 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA" id="434ABE35-5BF7-30FD-CB9C-A2ACF9DC766C">
+<sourceConnName>ADBOracle</sourceConnName>
+<sourceObjSchema>BITACORA</sourceObjSchema>
+<sourceObjName>FECHA</sourceObjName>
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:15 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGOCLIENTE" id="31FD1A72-328D-246F-0108-7BFB575F112A">
+<sourceConnName>ADBOracle</sourceConnName>
+<sourceObjSchema>BITACORA</sourceObjSchema>
+<sourceObjName>CODIGOCLIENTE</sourceObjName>
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:15 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGOVENDEDOR" id="A0007B56-3EFF-1601-3F51-171F5179A68D">
+<sourceConnName>ADBOracle</sourceConnName>
+<sourceObjSchema>BITACORA</sourceObjSchema>
+<sourceObjName>CODIGOVENDEDOR</sourceObjName>
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:15 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONDICIONESPAGO" id="F48DC80B-AE66-F8A3-72B8-5937BB6FBCC9">
+<sourceConnName>ADBOracle</sourceConnName>
+<sourceObjSchema>BITACORA</sourceObjSchema>
+<sourceObjName>CONDICIONESPAGO</sourceObjName>
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:15 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>55 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONDICIONESENTREGA" id="AC43993D-4156-95B4-CA4C-5322F7F3D6F6">
+<sourceConnName>ADBOracle</sourceConnName>
+<sourceObjSchema>BITACORA</sourceObjSchema>
+<sourceObjName>CONDICIONESENTREGA</sourceObjName>
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:15 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>55 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VIGENCIA" id="D1E7910D-A3CF-1C22-EE3E-9936187F6A7E">
+<sourceConnName>ADBOracle</sourceConnName>
+<sourceObjSchema>BITACORA</sourceObjSchema>
+<sourceObjName>VIGENCIA</sourceObjName>
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:15 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OBSERVACIONES" id="30B57E5C-6FE3-1D85-EEA5-A3B91A7AFC97">
+<sourceConnName>ADBOracle</sourceConnName>
+<sourceObjSchema>BITACORA</sourceObjSchema>
+<sourceObjName>OBSERVACIONES</sourceObjName>
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:15 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>55 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LISTAPRECIOS" id="722DE21E-A120-6DE2-26B4-EF7439E50AEC">
+<sourceConnName>ADBOracle</sourceConnName>
+<sourceObjSchema>BITACORA</sourceObjSchema>
+<sourceObjName>LISTAPRECIOS</sourceObjName>
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:15 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MONEDA" id="423E150C-66A9-9F84-EE0B-716AC8E79C60">
+<sourceConnName>ADBOracle</sourceConnName>
+<sourceObjSchema>BITACORA</sourceObjSchema>
+<sourceObjName>MONEDA</sourceObjName>
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:15 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="C2BDBD44-2ECB-BB39-C172-1B4D7F66A3D8">
+<sourceConnName>ADBOracle</sourceConnName>
+<sourceObjSchema>BITACORA</sourceObjSchema>
+<sourceObjName>ESTADO</sourceObjName>
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:15 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TOTALCOTIZACION" id="958966A8-7A69-F55E-EFC5-6EF2D2D6243C">
+<sourceConnName>ADBOracle</sourceConnName>
+<sourceObjSchema>BITACORA</sourceObjSchema>
+<sourceObjName>TOTALCOTIZACION</sourceObjName>
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:15 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7B042044-225A-2B92-6E63-864B1ECF3D8A" name="BITACORA_PK">
+<sourceConnName>ADBOracle</sourceConnName>
+<sourceObjSchema>C##ADB</sourceObjSchema>
+<sourceObjName>SYS_C0011636</sourceObjName>
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:30 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<schemaObject>0106CD54-5BC3-CC4A-FF00-A2394A105B84</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3F633E9D-D043-59AB-BDA0-84C5FAD7BBB6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

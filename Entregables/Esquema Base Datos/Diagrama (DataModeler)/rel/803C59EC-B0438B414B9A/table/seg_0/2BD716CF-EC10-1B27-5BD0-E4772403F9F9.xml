@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2BD716CF-EC10-1B27-5BD0-E4772403F9F9" name="PROVEEDORES">
+<sourceConnName>ADBOracle</sourceConnName>
+<sourceObjSchema>C##ADB</sourceObjSchema>
+<sourceObjName>PROVEEDORES</sourceObjName>
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:11 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<schemaObject>0106CD54-5BC3-CC4A-FF00-A2394A105B84</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CEDULA" id="F3A72992-5347-9334-5825-41ACF46BE5C3">
+<sourceConnName>ADBOracle</sourceConnName>
+<sourceObjSchema>PROVEEDORES</sourceObjSchema>
+<sourceObjName>CEDULA</sourceObjName>
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:26 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="478B64B9-A0CC-0428-08D9-DC0285EBCE8B">
+<sourceConnName>ADBOracle</sourceConnName>
+<sourceObjSchema>PROVEEDORES</sourceObjSchema>
+<sourceObjName>NOMBRE</sourceObjName>
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:26 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO" id="5644B207-1536-E22C-2578-B37491B1DB77">
+<sourceConnName>ADBOracle</sourceConnName>
+<sourceObjSchema>PROVEEDORES</sourceObjSchema>
+<sourceObjName>TIPO</sourceObjName>
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:26 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IMAGEN" id="19C34D60-4B95-872B-349F-B0B60C6D50F9">
+<sourceConnName>ADBOracle</sourceConnName>
+<sourceObjSchema>PROVEEDORES</sourceObjSchema>
+<sourceObjName>IMAGEN</sourceObjName>
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:26 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FFD8B514-10AB-3314-8247-320FAEE03FB7" name="SYS_C0010279">
+<sourceConnName>ADBOracle</sourceConnName>
+<sourceObjSchema>C##ADB</sourceObjSchema>
+<sourceObjName>SYS_C0010279</sourceObjName>
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:30 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F3A72992-5347-9334-5825-41ACF46BE5C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5C22C435-1FBE-829D-D945-882415F82964" name="SYS_C0010279">
+<sourceConnName>ADBOracle</sourceConnName>
+<sourceObjSchema>C##ADB</sourceObjSchema>
+<sourceObjName>SYS_C0010279</sourceObjName>
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:30 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>0106CD54-5BC3-CC4A-FF00-A2394A105B84</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F3A72992-5347-9334-5825-41ACF46BE5C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

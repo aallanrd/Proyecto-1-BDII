@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="FACT_BIR" directorySegmentName="seg_0" id="ADC3B139-7926-CFB4-C427-91CC0F78DE13">
+<sourceConnName>ADBOracle</sourceConnName>
+<sourceObjSchema>C##ADB</sourceObjSchema>
+<sourceObjName>FACT_BIR</sourceObjName>
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:30 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<actions>INSERT</actions>
+<body>BEGIN&lt;br/&gt;&lt;br/&gt; &lt;br/&gt;  SELECT fact_seq.NEXTVAL&lt;br/&gt;  INTO   :new.numeroFactura&lt;br/&gt;  FROM   dual;&lt;br/&gt;  &lt;br/&gt;  SELECT TO_CHAR (SYSDATE, &apos;MM-DD-YYYY HH24:MI:SS&apos;) &quot;NOW&quot; &lt;br/&gt;  INTO   :new.fechaCompra&lt;br/&gt;  FROM   dual;&lt;br/&gt; &lt;br/&gt;  SELECT dbms_random.string(&apos;U&apos;, 20) str&lt;br/&gt;  INTO   :new.codigoArticulo&lt;br/&gt;  FROM   dual;&lt;br/&gt;  &lt;br/&gt;  insert into Articulo values (:new.codigoArticulo,&apos;Default&apos;,&lt;br/&gt;                              :new.precioArticulo,&lt;br/&gt;                              :new.usuarioInserta,&lt;br/&gt;                              :new.usuarioInserta,&lt;br/&gt;                              :new.fechaCompra,&lt;br/&gt;                              :new.cantidad,&lt;br/&gt;                              :new.unidadMedida);&lt;br/&gt; &lt;br/&gt;    &lt;br/&gt;END;</body>
+<triggerTime>BEFORE</triggerTime>
+<owner>AFB655CF-CAC1-4A3E-474D-D22BC9FE9EDB</owner>
+<table>BC32C217-328E-B05F-2A7E-D10F73E02855</table>
+</TriggerOraclev10g>

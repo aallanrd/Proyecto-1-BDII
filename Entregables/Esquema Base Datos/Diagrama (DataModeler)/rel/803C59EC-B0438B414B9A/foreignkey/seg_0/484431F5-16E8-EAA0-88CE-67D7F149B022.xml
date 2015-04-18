@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="484431F5-16E8-EAA0-88CE-67D7F149B022" name="FACT_PROVEE_FK">
+<sourceConnName>ADBOracle</sourceConnName>
+<sourceObjSchema>C##ADB</sourceObjSchema>
+<sourceObjName>FACT_PROVEE_FK</sourceObjName>
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:30 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<containerWithKeyObject>BC32C217-328E-B05F-2A7E-D10F73E02855</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>AB7460F7-5415-6C0D-D6FB-3431B5D7D2BB</localFKIndex>
+<keyObject>FFD8B514-10AB-3314-8247-320FAEE03FB7</keyObject>
+<mandatory>false</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

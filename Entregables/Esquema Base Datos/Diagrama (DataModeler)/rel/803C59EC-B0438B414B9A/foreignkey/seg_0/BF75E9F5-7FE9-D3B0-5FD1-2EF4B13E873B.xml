@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BF75E9F5-7FE9-D3B0-5FD1-2EF4B13E873B" name="ART_FAMILIA_FK">
+<sourceConnName>ADBOracle</sourceConnName>
+<sourceObjSchema>C##ADB</sourceObjSchema>
+<sourceObjName>ART_FAMILIA_FK</sourceObjName>
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:30 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<containerWithKeyObject>E7ECED49-31CB-7A2F-6138-65DA13B33F71</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>F26BCE95-096F-230F-75F7-FEA65A3571C1</localFKIndex>
+<keyObject>4841FA85-0AD1-373B-F5D4-DEAEE4A90DB9</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

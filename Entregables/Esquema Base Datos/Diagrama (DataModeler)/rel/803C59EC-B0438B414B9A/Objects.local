@@ -1,0 +1,42 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="SchemaObject" objectID="0106CD54-5BC3-CC4A-FF00-A2394A105B84" name="C##ADB" seqName="seg_0"/>
+   <object objectType="Table" objectID="26076716-107F-AEE1-FCAB-A65991AB4CB2" name="ENSAMBLADO" seqName="seg_0"/>
+   <object objectType="Table" objectID="2BD716CF-EC10-1B27-5BD0-E4772403F9F9" name="PROVEEDORES" seqName="seg_0"/>
+   <object objectType="Table" objectID="2C95603C-B02F-AAEA-6E73-D2C68EF1AD35" name="CLIENTES" seqName="seg_0"/>
+   <object objectType="Table" objectID="33C0261B-833A-3766-E880-FD9B213E7E52" name="APARTADOS" seqName="seg_0"/>
+   <object objectType="Table" objectID="3F61DB6E-4A8A-F756-5F2E-9EA5FC29DDC9" name="PRECIOSPRUEBA" seqName="seg_0"/>
+   <object objectType="Table" objectID="4E8B1CC9-A13C-F2E9-4C97-49387715FD31" name="COTIZACION" seqName="seg_0"/>
+   <object objectType="Table" objectID="743D2922-242A-AF13-1E89-FD02E885E15E" name="FAMILIA" seqName="seg_0"/>
+   <object objectType="Table" objectID="88FB13FB-4386-7BD6-5E35-CB7F24DABE2B" name="CONTACTOS" seqName="seg_0"/>
+   <object objectType="Table" objectID="91CE5F35-E780-86E7-5564-F9F014450093" name="BITACORA" seqName="seg_0"/>
+   <object objectType="Table" objectID="AEE1B6D6-84C2-9454-AF27-6F6F1D2D3B4E" name="USUARIOS" seqName="seg_0"/>
+   <object objectType="Table" objectID="B3F2B50D-A1CA-B92F-530F-CD6923EB420F" name="DIRECCIONES" seqName="seg_0"/>
+   <object objectType="Table" objectID="BC32C217-328E-B05F-2A7E-D10F73E02855" name="FACTURACOMPRA" seqName="seg_0"/>
+   <object objectType="Table" objectID="C2B286F7-6E9B-0010-F3CA-14E6C80147BE" name="LISTAPRECIOS" seqName="seg_0"/>
+   <object objectType="Table" objectID="C61573B1-DB7F-A8FB-1E6E-699AA487F80F" name="INDICEECONOMICO" seqName="seg_0"/>
+   <object objectType="Table" objectID="C6BD64A7-4FE6-8B46-A452-B4E1A0A63988" name="TELEFONOS" seqName="seg_0"/>
+   <object objectType="Table" objectID="CBA8BB28-129D-5E90-4102-36D157B2C249" name="UNIDADMEDIDA" seqName="seg_0"/>
+   <object objectType="Table" objectID="DFE70806-394E-11B2-A74F-73F79F69A965" name="VALORES" seqName="seg_0"/>
+   <object objectType="Table" objectID="E7ECED49-31CB-7A2F-6138-65DA13B33F71" name="ARTICULO" seqName="seg_0"/>
+   <object objectType="Table" objectID="E96F0B6B-D61E-70B7-5513-C6F9A3C4DF88" name="ARTICULOSCOTIZADOS" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="04368385-45BF-0431-B2DC-953DF5035C33" name="ENSAMBLADO_ARTICULO_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="07D44F10-7491-D4FD-89F9-76DC6AE39B08" name="FACT_UNIDAD_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="2429B4F8-D797-1F5E-F90B-955D7075731E" name="DIR_USUARIO_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="3F9EA8EA-50E8-64EC-02A8-B1E54870BF06" name="ARTICULO_COTIZACION_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="451EBCF7-DD40-909E-1857-25FB5F36B53A" name="COTIZACION_LISTA_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="484431F5-16E8-EAA0-88CE-67D7F149B022" name="FACT_PROVEE_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="48450D24-7B37-6152-D481-9AAA2AF9C94C" name="COTIZACION_USUARIO_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="4CB17775-E9D9-4ABB-D1A4-DA70BEE777AF" name="FAM_INDICE_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="4EC7AFDF-04A1-D471-A379-379368C18600" name="PRECIO_LISTA_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="6404B2BA-BB6F-1FDE-67EC-2B9C969ECAE6" name="ART_UNIDAD_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="6E5AF367-37C0-4C86-AF09-09F41CBBFD61" name="PRECIO_ARTICULO_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="7E6FA9B1-5307-CCDC-4159-AD2CD7413DEE" name="TEL_USUARIO_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="9291784F-4C3A-05BD-B5F8-454AC8315777" name="COTIZACIOM_CLIENTE_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="BF75E9F5-7FE9-D3B0-5FD1-2EF4B13E873B" name="ART_FAMILIA_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="CB68C4F3-A668-D0D0-656A-94ACCAED416E" name="AP_USUARIO_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="E4933FE1-AA52-E923-BC4D-9B5D7D7968DE" name="ART_USERA_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="ED078CAC-8D2B-51C1-C6C4-07FA91B81180" name="CON_USUARIO_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="FA6EF4F0-E111-8FAF-65CA-A3BF0F8916B5" name="ART_USERI_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="FC78369F-FFF7-9A08-AFCE-ADA0C272861D" name="FACT_USER_FK" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

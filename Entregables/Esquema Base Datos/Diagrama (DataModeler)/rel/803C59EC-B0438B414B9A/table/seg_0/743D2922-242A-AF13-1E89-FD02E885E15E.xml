@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="743D2922-242A-AF13-1E89-FD02E885E15E" name="FAMILIA">
+<sourceConnName>ADBOracle</sourceConnName>
+<sourceObjSchema>C##ADB</sourceObjSchema>
+<sourceObjName>FAMILIA</sourceObjName>
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:11 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<schemaObject>0106CD54-5BC3-CC4A-FF00-A2394A105B84</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO" id="F5D3A922-4E37-1A12-D0F5-A8734D5D92C4">
+<sourceConnName>ADBOracle</sourceConnName>
+<sourceObjSchema>FAMILIA</sourceObjSchema>
+<sourceObjName>CODIGO</sourceObjName>
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:22 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGOINDICE" id="FAD0D313-EEFA-E9DE-6932-8E98ACB8C884">
+<sourceConnName>ADBOracle</sourceConnName>
+<sourceObjSchema>FAMILIA</sourceObjSchema>
+<sourceObjName>CODIGOINDICE</sourceObjName>
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:22 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<delegate>D62B09AF-65D6-A2A2-8978-F6A5C9A5ED86</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4CB17775-E9D9-4ABB-D1A4-DA70BEE777AF" referredColumn="D62B09AF-65D6-A2A2-8978-F6A5C9A5ED86"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4841FA85-0AD1-373B-F5D4-DEAEE4A90DB9" name="FAMILIA_PK">
+<sourceConnName>ADBOracle</sourceConnName>
+<sourceObjSchema>C##ADB</sourceObjSchema>
+<sourceObjName>SYS_C0011532</sourceObjName>
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:30 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<schemaObject>0106CD54-5BC3-CC4A-FF00-A2394A105B84</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F5D3A922-4E37-1A12-D0F5-A8734D5D92C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B1791A14-98B8-AB0C-85EE-C15731D7E4BB" name="FAM_INDICE_FK">
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:30 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FAD0D313-EEFA-E9DE-6932-8E98ACB8C884"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

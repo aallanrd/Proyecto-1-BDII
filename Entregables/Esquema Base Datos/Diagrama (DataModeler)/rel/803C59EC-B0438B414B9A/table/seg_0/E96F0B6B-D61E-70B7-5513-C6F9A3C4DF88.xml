@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E96F0B6B-D61E-70B7-5513-C6F9A3C4DF88" name="ARTICULOSCOTIZADOS">
+<sourceConnName>ADBOracle</sourceConnName>
+<sourceObjSchema>C##ADB</sourceObjSchema>
+<sourceObjName>ARTICULOSCOTIZADOS</sourceObjName>
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:11 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<schemaObject>0106CD54-5BC3-CC4A-FF00-A2394A105B84</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NUMEROCOTIZACION" id="34E2023C-2A63-9D98-1588-B370B23C4A12">
+<sourceConnName>ADBOracle</sourceConnName>
+<sourceObjSchema>ARTICULOSCOTIZADOS</sourceObjSchema>
+<sourceObjName>NUMEROCOTIZACION</sourceObjName>
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:14 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="D07C2564-4A9B-8AE9-794D-7AD2F33BD3D0">
+<sourceConnName>ADBOracle</sourceConnName>
+<sourceObjSchema>ARTICULOSCOTIZADOS</sourceObjSchema>
+<sourceObjName>DESCRIPCION</sourceObjName>
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:14 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUMEROMESES" id="09A3754E-198D-0F59-B9D7-3BB299E1A13B">
+<sourceConnName>ADBOracle</sourceConnName>
+<sourceObjSchema>ARTICULOSCOTIZADOS</sourceObjSchema>
+<sourceObjName>NUMEROMESES</sourceObjName>
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:14 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COTIZACION" id="BAA0C1F0-45EC-C1EA-99DC-70ADC83D91FD">
+<sourceConnName>ADBOracle</sourceConnName>
+<sourceObjSchema>ARTICULOSCOTIZADOS</sourceObjSchema>
+<sourceObjName>COTIZACION</sourceObjName>
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:14 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<delegate>DE992353-EF51-F7E8-81C8-C7628142C29B</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3F9EA8EA-50E8-64EC-02A8-B1E54870BF06" referredColumn="DE992353-EF51-F7E8-81C8-C7628142C29B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A7F26B27-8055-6044-192E-FF813A37F675" name="ARTICULOSCOTIZADOS_PK">
+<sourceConnName>ADBOracle</sourceConnName>
+<sourceObjSchema>C##ADB</sourceObjSchema>
+<sourceObjName>SYS_C0011602</sourceObjName>
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:30 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<schemaObject>0106CD54-5BC3-CC4A-FF00-A2394A105B84</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="34E2023C-2A63-9D98-1588-B370B23C4A12"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="70CE1492-788E-2324-2D94-ED0280DFFE22" name="ARTICULO_COTIZACION_FK">
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:30 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BAA0C1F0-45EC-C1EA-99DC-70ADC83D91FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

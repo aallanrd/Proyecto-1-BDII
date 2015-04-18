@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="COTIZACION" directorySegmentName="seg_0" id="4E8B1CC9-A13C-F2E9-4C97-49387715FD31">
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:11 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<schemaObject>0106CD54-5BC3-CC4A-FF00-A2394A105B84</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>54BD33AD-407F-C1A5-80FA-DF69DBEFBDE7</segment>
+<tableSpace>5180B114-E96F-6169-EDCB-730F1A694F1F</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="TOTALCOTIZACION" id="056767C6-15B4-5D28-39C7-072251B57BFB">
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:18 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LISTAPRECIOS" id="06C4288B-CFF9-4B15-A070-48D75ADA8F52">
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:18 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHA" id="18881391-6E87-D9A7-64E7-0AE66F878472">
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:18 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODIGOVENDEDOR" id="64A324E3-07CA-D837-AD14-DC65934AF40B">
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:18 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ESTADO" id="667A2D04-CD84-EECF-9B32-1362F636D82A">
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:18 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VIGENCIA" id="7D8A7311-6700-8417-FB54-E3EDDD3711B4">
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:18 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CONDICIONESPAGO" id="A9FFAFB5-CE93-28FD-E4B7-65149AB47012">
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:18 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OBSERVACIONES" id="AF068836-33A7-AE4E-56B9-80353CB42E03">
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:18 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CONDICIONESENTREGA" id="CBC1D15A-C01F-E0C8-3F6C-93496E372A24">
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:18 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODIGOCLIENTE" id="CC170F96-A481-9BE9-130F-6350F70694EB">
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:18 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODIGO" id="DE992353-EF51-F7E8-81C8-C7628142C29B">
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:18 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MONEDA" id="EC1D50F0-A7C5-E73B-B77D-09E0DF57FF4A">
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:18 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="COTIZACIOM_CLIENTE_FK" id="596F4529-84C5-A60F-93C2-8D5D78FDD6A0">
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:30 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="COTIZACION_USUARIO_FK" id="E0F1301F-0160-45F3-3D19-FAF2D041F73A">
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:30 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="COTIZACION_LISTA_FK" id="E3CF03A5-CEA3-006C-7EE3-9ABC27156163">
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:30 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="COTIZACION_PK" id="84F8FB55-5722-77A4-0505-7E31281E08B5">
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:30 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<schemaObject>0106CD54-5BC3-CC4A-FF00-A2394A105B84</schemaObject>
+<segment>E146EA8D-4144-81BD-ECDB-EC07790654FB</segment>
+<tableSpace>5180B114-E96F-6169-EDCB-730F1A694F1F</tableSpace>
+<indexSegment>E146EA8D-4144-81BD-ECDB-EC07790654FB</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

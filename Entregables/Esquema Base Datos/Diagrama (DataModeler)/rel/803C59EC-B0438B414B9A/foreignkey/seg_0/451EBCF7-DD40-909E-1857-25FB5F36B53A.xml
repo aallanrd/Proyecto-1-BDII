@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="451EBCF7-DD40-909E-1857-25FB5F36B53A" name="COTIZACION_LISTA_FK">
+<sourceConnName>ADBOracle</sourceConnName>
+<sourceObjSchema>C##ADB</sourceObjSchema>
+<sourceObjName>COTIZACION_LISTA_FK</sourceObjName>
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:30 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<containerWithKeyObject>4E8B1CC9-A13C-F2E9-4C97-49387715FD31</containerWithKeyObject>
+<deleteRule>CASCADE</deleteRule>
+<localFKIndex>E3CF03A5-CEA3-006C-7EE3-9ABC27156163</localFKIndex>
+<keyObject>3EC8592F-9812-458E-5D9B-C6CD2B1FBFB0</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

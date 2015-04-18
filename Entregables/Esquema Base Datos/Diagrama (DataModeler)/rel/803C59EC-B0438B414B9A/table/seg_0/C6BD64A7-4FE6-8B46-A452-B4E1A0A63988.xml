@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C6BD64A7-4FE6-8B46-A452-B4E1A0A63988" name="TELEFONOS">
+<sourceConnName>ADBOracle</sourceConnName>
+<sourceObjSchema>C##ADB</sourceObjSchema>
+<sourceObjName>TELEFONOS</sourceObjName>
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:11 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<schemaObject>0106CD54-5BC3-CC4A-FF00-A2394A105B84</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CEDULA" id="0477C189-2D9D-47E6-713D-298FE2B8DEA7">
+<sourceConnName>ADBOracle</sourceConnName>
+<sourceObjSchema>TELEFONOS</sourceObjSchema>
+<sourceObjName>CEDULA</sourceObjName>
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:27 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<delegate>77AF8416-BB7D-DD68-E84A-3F6B386F26E3</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7E6FA9B1-5307-CCDC-4159-AD2CD7413DEE" referredColumn="77AF8416-BB7D-DD68-E84A-3F6B386F26E3"/>
+</associations>
+</Column>
+<Column name="TELEFONO" id="91DFBC06-C7D6-55F3-BCCC-130CEFC488B7">
+<sourceConnName>ADBOracle</sourceConnName>
+<sourceObjSchema>TELEFONOS</sourceObjSchema>
+<sourceObjName>TELEFONO</sourceObjName>
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:27 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="85C6DE99-6EF9-6A62-7077-39FCD9F8A089" name="TEL_USUARIO_FK">
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:30 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0477C189-2D9D-47E6-713D-298FE2B8DEA7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

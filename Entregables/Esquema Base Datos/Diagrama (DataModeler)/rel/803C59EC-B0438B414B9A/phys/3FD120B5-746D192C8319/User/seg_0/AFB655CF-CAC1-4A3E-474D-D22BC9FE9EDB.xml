@@ -1,0 +1,10 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="C##ADB" directorySegmentName="seg_0" id="AFB655CF-CAC1-4A3E-474D-D22BC9FE9EDB">
+<sourceConnName>ADBOracle</sourceConnName>
+<sourceObjName>C##ADB</sourceObjName>
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:09 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<schemaObject>0106CD54-5BC3-CC4A-FF00-A2394A105B84</schemaObject>
+</UserOraclev10g>

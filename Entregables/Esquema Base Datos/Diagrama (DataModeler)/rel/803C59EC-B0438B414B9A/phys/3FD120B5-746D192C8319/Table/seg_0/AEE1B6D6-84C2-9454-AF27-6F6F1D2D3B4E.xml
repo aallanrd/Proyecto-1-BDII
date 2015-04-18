@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="USUARIOS" directorySegmentName="seg_0" id="AEE1B6D6-84C2-9454-AF27-6F6F1D2D3B4E">
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:11 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<schemaObject>0106CD54-5BC3-CC4A-FF00-A2394A105B84</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>660BA072-C565-3A22-6D56-8C2BC3C4F111</segment>
+<tableSpace>5180B114-E96F-6169-EDCB-730F1A694F1F</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="SYS_C0010270" id="266D8732-5B8F-AC59-925A-183CE2059300">
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:30 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<schemaObject>0106CD54-5BC3-CC4A-FF00-A2394A105B84</schemaObject>
+<segment>C6C8AF6E-FA35-5EE5-8120-768645D02FA9</segment>
+<tableSpace>5180B114-E96F-6169-EDCB-730F1A694F1F</tableSpace>
+</IndexProxy>
+</indexProxies>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CONTRASEÑA" id="18E45145-4523-84A5-6395-69077BE868C5">
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:29 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IMAGEN" id="2726AA30-0AB2-88E1-9C5D-5D4C203D654C">
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:29 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOMBRE_USUARIO" id="417C127F-55E3-1E66-448F-AAF70EA00CCB">
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:29 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CEDULA" id="77AF8416-BB7D-DD68-E84A-3F6B386F26E3">
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:29 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOMBRE" id="78D020DD-15D6-D67F-36DC-780BE181E87D">
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:29 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TIPO" id="DDF96177-1C65-5BC8-8A3B-C27707F96573">
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:29 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<lobStorages>
+<LobStorage class="oracle.dbtools.crest.model.design.storage.oracle.v11g.LobStorageOraclev11g" name="SYS_LOB0000092778C00006$$" id="A922097E-C834-685C-F347-ED5E0E31419E">
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:31 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<cache>NOCACHE</cache>
+<chunk>8192</chunk>
+<column>IMAGEN</column>
+<compression>NO</compression>
+<duplication>KEEP_DUPLICATES</duplication>
+<logging>YES</logging>
+<tableSpace>24784B79-926D-27D5-D8F8-91A00DAF56BA</tableSpace>
+<lobStorageType>SECUREFILE</lobStorageType>
+</LobStorage>
+</lobStorages>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="SYS_C0010270" id="5E1A3533-587C-3EC8-F37B-F16335174D5C">
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:30 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<segment>C6C8AF6E-FA35-5EE5-8120-768645D02FA9</segment>
+<tableSpace>5180B114-E96F-6169-EDCB-730F1A694F1F</tableSpace>
+<existingIndex>266D8732-5B8F-AC59-925A-183CE2059300</existingIndex>
+<indexSegment>C6C8AF6E-FA35-5EE5-8120-768645D02FA9</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

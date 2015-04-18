@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B3F2B50D-A1CA-B92F-530F-CD6923EB420F" name="DIRECCIONES">
+<sourceConnName>ADBOracle</sourceConnName>
+<sourceObjSchema>C##ADB</sourceObjSchema>
+<sourceObjName>DIRECCIONES</sourceObjName>
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:11 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<schemaObject>0106CD54-5BC3-CC4A-FF00-A2394A105B84</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CEDULA" id="E5A6A83B-ABE1-A390-AB8C-1D56147AA020">
+<sourceConnName>ADBOracle</sourceConnName>
+<sourceObjSchema>DIRECCIONES</sourceObjSchema>
+<sourceObjName>CEDULA</sourceObjName>
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:19 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<delegate>77AF8416-BB7D-DD68-E84A-3F6B386F26E3</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2429B4F8-D797-1F5E-F90B-955D7075731E" referredColumn="77AF8416-BB7D-DD68-E84A-3F6B386F26E3"/>
+</associations>
+</Column>
+<Column name="DIRECCION" id="88750E53-7BA5-F2CE-2DC8-CD02684AF9F6">
+<sourceConnName>ADBOracle</sourceConnName>
+<sourceObjSchema>DIRECCIONES</sourceObjSchema>
+<sourceObjName>DIRECCION</sourceObjName>
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:19 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="412B044D-69C0-FF0F-9CC0-9E912429122C" name="DIR_USUARIO_FK">
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:30 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E5A6A83B-ABE1-A390-AB8C-1D56147AA020"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

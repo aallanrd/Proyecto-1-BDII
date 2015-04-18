@@ -1,0 +1,246 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4E8B1CC9-A13C-F2E9-4C97-49387715FD31" name="COTIZACION">
+<sourceConnName>ADBOracle</sourceConnName>
+<sourceObjSchema>C##ADB</sourceObjSchema>
+<sourceObjName>COTIZACION</sourceObjName>
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:11 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<schemaObject>0106CD54-5BC3-CC4A-FF00-A2394A105B84</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO" id="DE992353-EF51-F7E8-81C8-C7628142C29B">
+<sourceConnName>ADBOracle</sourceConnName>
+<sourceObjSchema>COTIZACION</sourceObjSchema>
+<sourceObjName>CODIGO</sourceObjName>
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:18 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA" id="18881391-6E87-D9A7-64E7-0AE66F878472">
+<sourceConnName>ADBOracle</sourceConnName>
+<sourceObjSchema>COTIZACION</sourceObjSchema>
+<sourceObjName>FECHA</sourceObjName>
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:18 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGOCLIENTE" id="CC170F96-A481-9BE9-130F-6350F70694EB">
+<sourceConnName>ADBOracle</sourceConnName>
+<sourceObjSchema>COTIZACION</sourceObjSchema>
+<sourceObjName>CODIGOCLIENTE</sourceObjName>
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:18 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<delegate>3A2E4F71-B3DD-1520-AEA5-00072EA42031</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9291784F-4C3A-05BD-B5F8-454AC8315777" referredColumn="3A2E4F71-B3DD-1520-AEA5-00072EA42031"/>
+</associations>
+</Column>
+<Column name="CODIGOVENDEDOR" id="64A324E3-07CA-D837-AD14-DC65934AF40B">
+<sourceConnName>ADBOracle</sourceConnName>
+<sourceObjSchema>COTIZACION</sourceObjSchema>
+<sourceObjName>CODIGOVENDEDOR</sourceObjName>
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:18 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<delegate>77AF8416-BB7D-DD68-E84A-3F6B386F26E3</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="48450D24-7B37-6152-D481-9AAA2AF9C94C" referredColumn="77AF8416-BB7D-DD68-E84A-3F6B386F26E3"/>
+</associations>
+</Column>
+<Column name="CONDICIONESPAGO" id="A9FFAFB5-CE93-28FD-E4B7-65149AB47012">
+<sourceConnName>ADBOracle</sourceConnName>
+<sourceObjSchema>COTIZACION</sourceObjSchema>
+<sourceObjName>CONDICIONESPAGO</sourceObjName>
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:18 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>55 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONDICIONESENTREGA" id="CBC1D15A-C01F-E0C8-3F6C-93496E372A24">
+<sourceConnName>ADBOracle</sourceConnName>
+<sourceObjSchema>COTIZACION</sourceObjSchema>
+<sourceObjName>CONDICIONESENTREGA</sourceObjName>
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:18 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>55 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VIGENCIA" id="7D8A7311-6700-8417-FB54-E3EDDD3711B4">
+<sourceConnName>ADBOracle</sourceConnName>
+<sourceObjSchema>COTIZACION</sourceObjSchema>
+<sourceObjName>VIGENCIA</sourceObjName>
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:18 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OBSERVACIONES" id="AF068836-33A7-AE4E-56B9-80353CB42E03">
+<sourceConnName>ADBOracle</sourceConnName>
+<sourceObjSchema>COTIZACION</sourceObjSchema>
+<sourceObjName>OBSERVACIONES</sourceObjName>
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:18 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>55 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LISTAPRECIOS" id="06C4288B-CFF9-4B15-A070-48D75ADA8F52">
+<sourceConnName>ADBOracle</sourceConnName>
+<sourceObjSchema>COTIZACION</sourceObjSchema>
+<sourceObjName>LISTAPRECIOS</sourceObjName>
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:18 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<delegate>85BF0A9F-8D36-51B3-AFE1-13A3467575AC</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="451EBCF7-DD40-909E-1857-25FB5F36B53A" referredColumn="85BF0A9F-8D36-51B3-AFE1-13A3467575AC"/>
+</associations>
+</Column>
+<Column name="MONEDA" id="EC1D50F0-A7C5-E73B-B77D-09E0DF57FF4A">
+<sourceConnName>ADBOracle</sourceConnName>
+<sourceObjSchema>COTIZACION</sourceObjSchema>
+<sourceObjName>MONEDA</sourceObjName>
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:18 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="667A2D04-CD84-EECF-9B32-1362F636D82A">
+<sourceConnName>ADBOracle</sourceConnName>
+<sourceObjSchema>COTIZACION</sourceObjSchema>
+<sourceObjName>ESTADO</sourceObjName>
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:18 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TOTALCOTIZACION" id="056767C6-15B4-5D28-39C7-072251B57BFB">
+<sourceConnName>ADBOracle</sourceConnName>
+<sourceObjSchema>COTIZACION</sourceObjSchema>
+<sourceObjName>TOTALCOTIZACION</sourceObjName>
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:18 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="84F8FB55-5722-77A4-0505-7E31281E08B5" name="COTIZACION_PK">
+<sourceConnName>ADBOracle</sourceConnName>
+<sourceObjSchema>C##ADB</sourceObjSchema>
+<sourceObjName>SYS_C0011594</sourceObjName>
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:30 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<schemaObject>0106CD54-5BC3-CC4A-FF00-A2394A105B84</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE992353-EF51-F7E8-81C8-C7628142C29B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="596F4529-84C5-A60F-93C2-8D5D78FDD6A0" name="COTIZACIOM_CLIENTE_FK">
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:30 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CC170F96-A481-9BE9-130F-6350F70694EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E3CF03A5-CEA3-006C-7EE3-9ABC27156163" name="COTIZACION_LISTA_FK">
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:30 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="06C4288B-CFF9-4B15-A070-48D75ADA8F52"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E0F1301F-0160-45F3-3D19-FAF2D041F73A" name="COTIZACION_USUARIO_FK">
+<createdBy>Allan</createdBy>
+<createdTime>2015-04-15 16:02:30 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>next2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="64A324E3-07CA-D837-AD14-DC65934AF40B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
