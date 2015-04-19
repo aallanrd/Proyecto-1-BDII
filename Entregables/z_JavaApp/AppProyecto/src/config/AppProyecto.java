@@ -20,7 +20,7 @@ public class AppProyecto {
    
    // String connect = "jdbc:oracle:thin:@localhost:1521:XE"; // String de conexcion JDBC (Base de Datos Almacenamiento)
     public static final String DBURL = "jdbc:oracle:thin:@//localhost:1521/pdborcl";
-    public static final String DBUSER = "C##ALLAN";
+    public static final String DBUSER = "C##ADB";
     public static final String DBPASS = "Ard2592allan";
     
     //String x = "jdbc:oracle:thin:@//localhost:1521/pdborcl";

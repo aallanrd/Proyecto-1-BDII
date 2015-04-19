@@ -19,6 +19,7 @@ import javax.swing.JComboBox;
 import javax.swing.JOptionPane;
 import javax.swing.JTable;
 import model.FacturaCompra;
+import model.Producto;
 import model.Proveedores;
 import model.Users;
 import model.unidadMedida;
@@ -214,6 +215,40 @@ public class ControllerUsuarios {
                 }
 
                 miArray.add(user);
+
+            }
+        } catch (Exception e) {
+
+        }
+        return miArray;
+    }
+public    ArrayList<Producto> getAllProducts(JComboBox c1) {
+        c1.removeAll();
+        ArrayList<Producto> miArray = new ArrayList<>();
+        try {
+            ResultSet rs = AppProyecto.statement.executeQuery("select * from producto");
+            
+            while (rs.next()) {
+
+                
+                Producto product = new Producto();
+                // read the result set
+                try {
+                    c1.addItem(rs.getString("codigoArticulo"));
+                    product.setCodigoArticulo("codigoArticulo");
+                    product.setFamilia("familia");
+                    product.setPrecioDolar("precioDolar");
+                    product.setUsuarioInserta("usuarioInserta");
+                    product.setUsuarioActualiza("usuarioActualiza");
+                    product.setFechaUltimoUpdate("fechaUltimoUpdate");
+                    product.setCantidad("cantidad");
+                    product.setUnidadMedida("unidadMedida");
+
+                } catch (Exception e) {
+
+                }
+
+                miArray.add(product);
 
             }
         } catch (Exception e) {

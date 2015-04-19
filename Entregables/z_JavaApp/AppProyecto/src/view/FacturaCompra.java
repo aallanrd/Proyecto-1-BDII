@@ -13,6 +13,7 @@ import java.util.logging.Logger;
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
 import javax.swing.event.ChangeEvent;
+import model.Producto;
 import model.Proveedores;
 import model.Users;
 import model.unidadMedida;
@@ -27,33 +28,47 @@ public class FacturaCompra extends javax.swing.JDialog {
     /**
      * Creates new form FacturaCompra
      */
-     public FacturaCompra(java.awt.Frame parent, boolean modal) {
-        
-        super(parent, modal);
-        initComponents();
-        setLocationRelativeTo(parent);
-        
-       
-      
-    }
+     
+     ArrayList<Producto>        allProductos;
      ArrayList<unidadMedida>        loadUnidades;
      ArrayList<model.FacturaCompra> loadFacturaCompra ;
      ArrayList<Proveedores>         allProveedores ;
      
-    private void loadUnidades(){
+     public FacturaCompra(java.awt.Frame parent, boolean modal,Users user, ControllerUsuarios cont) {
+        
+        super(parent, modal);
+        initComponents();
+        myUserActual = user;
+        control = cont;
+        setLocationRelativeTo(parent);
+        getReady();
+    }
+
+     //=================================================
+    private void getReady() {
+        jSpinner1.addChangeListener((ChangeEvent ce) -> {
+            String x1 = jSpinner1.getValue().toString();
+            if (x1.equals("1")) {
+                control.loadFacturaCompra(jTable1);
+            } else {
+                clearTable();
+            }
+        });
+        LoadPreData();
+    }
+    
+    private void LoadPreData(){
        
              clearTable();
              loadUnidades = control.loadUnidades(jComboBox2);
              loadFacturaCompra = control.loadFacturaCompra(jTable1);
              allProveedores = control.getAllProveedores(jComboBox3);
+             allProductos = control.getAllProducts(comboProduct);
              
-        
-        
+            
     } 
     
     
-
-
     
      private void clearTable(){
         int c = 0;
@@ -69,24 +84,7 @@ public class FacturaCompra extends javax.swing.JDialog {
         
     } 
     
-    public FacturaCompra(java.awt.Frame parent, boolean modal,Users user, ControllerUsuarios cont) {
-        
-        super(parent, modal);
-        initComponents();
-        jSpinner1.addChangeListener((ChangeEvent ce) -> {
-            String x1 = jSpinner1.getValue().toString();
-            if (x1.equals("1")) {
-                control.loadFacturaCompra(jTable1);
-            } else {
-                clearTable();
-            }
-        });
     
-        control = cont;
-        setLocationRelativeTo(parent);
-        myUserActual = user;
-         loadUnidades();
-         }
     Users myUserActual ;
     /**
      * This method is called from within the constructor to initialize the form.
@@ -105,7 +103,7 @@ public class FacturaCompra extends javax.swing.JDialog {
         jSeparator2 = new javax.swing.JSeparator();
         jButton1 = new javax.swing.JButton();
         txtPrecio = new javax.swing.JTextField();
-        jComboBox1 = new javax.swing.JComboBox();
+        comboProduct = new javax.swing.JComboBox();
         jCheckBox1 = new javax.swing.JCheckBox();
         jLabel3 = new javax.swing.JLabel();
         jSpinner2 = new javax.swing.JSpinner();
@@ -254,8 +252,8 @@ public class FacturaCompra extends javax.swing.JDialog {
             }
         });
 
-        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
-        jComboBox1.setEnabled(false);
+        comboProduct.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        comboProduct.setEnabled(false);
 
         jCheckBox1.setSelected(true);
         jCheckBox1.setText("Nuevo Articulo");
@@ -279,7 +277,7 @@ public class FacturaCompra extends javax.swing.JDialog {
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addContainerGap()
-                        .addComponent(jScrollPane1))
+                        .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 612, Short.MAX_VALUE))
                     .addComponent(jSeparator2, javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGap(21, 21, 21)
@@ -294,7 +292,7 @@ public class FacturaCompra extends javax.swing.JDialog {
                                         .addGap(18, 18, 18)
                                         .addComponent(jLabel3)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, 207, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                        .addComponent(comboProduct, javax.swing.GroupLayout.PREFERRED_SIZE, 207, javax.swing.GroupLayout.PREFERRED_SIZE))
                                     .addGroup(jPanel1Layout.createSequentialGroup()
                                         .addComponent(txtPrecio, javax.swing.GroupLayout.PREFERRED_SIZE, 257, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -305,8 +303,8 @@ public class FacturaCompra extends javax.swing.JDialog {
                                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addComponent(jLabel5)
                                     .addComponent(jComboBox2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 74, Short.MAX_VALUE)
-                                .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 95, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                                .addGap(18, 18, 18)
+                                .addComponent(jButton1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))))
                 .addContainerGap())
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addContainerGap()
@@ -322,10 +320,13 @@ public class FacturaCompra extends javax.swing.JDialog {
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jCheckBox1)
                     .addComponent(jLabel3)
-                    .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(10, 10, 10)
+                    .addComponent(comboProduct, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(10, 10, 10)
+                        .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(10, 10, 10)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                             .addComponent(jLabel4)
                             .addComponent(jLabel5))
@@ -333,8 +334,7 @@ public class FacturaCompra extends javax.swing.JDialog {
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(txtPrecio, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jSpinner2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jComboBox2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                    .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(jComboBox2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jComboBox3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(9, 9, 9)
@@ -392,19 +392,19 @@ public class FacturaCompra extends javax.swing.JDialog {
    
    insert(precio, cantidad, unidad, proveeId, control);
    
-  control.loadFacturaCompra(jTable1);
+   control.loadFacturaCompra(jTable1);
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jCheckBox1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jCheckBox1MouseClicked
      boolean isSelected = jCheckBox1.isSelected();
       if(isSelected){
           jCheckBox1.setSelected(true);
-          jComboBox1.setEnabled(false);
+          comboProduct.setEnabled(false);
           
       }
       else{
        jCheckBox1.setSelected(false);
-       jComboBox1.setEnabled(true);
+       comboProduct.setEnabled(true);
       }
     }//GEN-LAST:event_jCheckBox1MouseClicked
 
@@ -464,9 +464,9 @@ public class FacturaCompra extends javax.swing.JDialog {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JComboBox comboProduct;
     private javax.swing.JButton jButton1;
     private javax.swing.JCheckBox jCheckBox1;
-    private javax.swing.JComboBox jComboBox1;
     private javax.swing.JComboBox jComboBox2;
     private javax.swing.JComboBox jComboBox3;
     private javax.swing.JLabel jLabel1;
@@ -482,6 +482,18 @@ public class FacturaCompra extends javax.swing.JDialog {
     private javax.swing.JTable jTable1;
     private javax.swing.JTextField txtPrecio;
     // End of variables declaration//GEN-END:variables
+
+    
+public FacturaCompra(java.awt.Frame parent, boolean modal) {
+        
+        super(parent, modal);
+        initComponents();
+        setLocationRelativeTo(parent);
+        
+       
+      
+    }
+
 
 public void insert(String precio, String cantidad,String unidad,String provee,ControllerUsuarios control){
     
