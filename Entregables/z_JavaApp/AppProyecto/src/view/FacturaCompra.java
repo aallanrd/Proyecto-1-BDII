@@ -6,12 +6,7 @@
 package view;
 
 import control.ControllerUsuarios;
-import java.sql.SQLException;
 import java.util.ArrayList;
-import java.util.logging.Level;
-import java.util.logging.Logger;
-import javafx.beans.value.ChangeListener;
-import javafx.beans.value.ObservableValue;
 import javax.swing.event.ChangeEvent;
 import model.Producto;
 import model.Proveedores;
@@ -60,10 +55,11 @@ public class FacturaCompra extends javax.swing.JDialog {
     private void LoadPreData(){
        
              clearTable();
+             // allProductos = control.getAllProducts(comboProduct);
              loadUnidades = control.loadUnidades(jComboBox2);
              loadFacturaCompra = control.loadFacturaCompra(jTable1);
              allProveedores = control.getAllProveedores(jComboBox3);
-             allProductos = control.getAllProducts(comboProduct);
+            
              
             
     } 
@@ -252,9 +248,6 @@ public class FacturaCompra extends javax.swing.JDialog {
             }
         });
 
-        comboProduct.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
-        comboProduct.setEnabled(false);
-
         jCheckBox1.setSelected(true);
         jCheckBox1.setText("Nuevo Articulo");
         jCheckBox1.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -321,12 +314,10 @@ public class FacturaCompra extends javax.swing.JDialog {
                     .addComponent(jCheckBox1)
                     .addComponent(jLabel3)
                     .addComponent(comboProduct, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(10, 10, 10)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(10, 10, 10)
-                        .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(10, 10, 10)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                             .addComponent(jLabel4)
                             .addComponent(jLabel5))

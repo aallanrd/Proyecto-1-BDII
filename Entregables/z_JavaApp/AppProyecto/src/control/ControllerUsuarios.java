@@ -174,6 +174,9 @@ public class ControllerUsuarios {
                     fact.setCantidad(rs.getString("cantidad"));
                     t1.setValueAt(rs.getString("cantidad"),c,7);
                     
+                     fact.setNombre(rs.getString("cantidad"));
+                  //  t1.setValueAt(rs.getString("cantidad"),c,7);
+                    
                     
                 }
                 catch(Exception e){
@@ -223,38 +226,41 @@ public class ControllerUsuarios {
         return miArray;
     }
 public    ArrayList<Producto> getAllProducts(JComboBox c1) {
-        c1.removeAll();
-        ArrayList<Producto> miArray = new ArrayList<>();
-        try {
-            ResultSet rs = AppProyecto.statement.executeQuery("select * from producto");
+   
+    ArrayList<Producto> miArray = null ;
+    c1.removeAll();
+    miArray = new ArrayList<>();
+    try {
+        ResultSet rs = AppProyecto.statement.executeQuery("select * from Articulo");
+        
+        while (rs.next()) {
             
-            while (rs.next()) {
-
+            
+            Producto product = new Producto();
+            // read the result set
+            try {
+                c1.addItem(rs.getString("nombre"));
+                product.setCodigoArticulo("codigoArticulo");
+                product.setFamilia("familia");
+                product.setPrecioDolar("precioDolar");
+                product.setUsuarioInserta("usuarioInserta");
+                product.setUsuarioActualiza("usuarioActualiza");
+                product.setFechaUltimoUpdate("fechaUltimoUpdate");
+                product.setCantidad("cantidad");
+                product.setUnidadMedida("unidadMedida");
+                product.setNombre("nombre");
                 
-                Producto product = new Producto();
-                // read the result set
-                try {
-                    c1.addItem(rs.getString("codigoArticulo"));
-                    product.setCodigoArticulo("codigoArticulo");
-                    product.setFamilia("familia");
-                    product.setPrecioDolar("precioDolar");
-                    product.setUsuarioInserta("usuarioInserta");
-                    product.setUsuarioActualiza("usuarioActualiza");
-                    product.setFechaUltimoUpdate("fechaUltimoUpdate");
-                    product.setCantidad("cantidad");
-                    product.setUnidadMedida("unidadMedida");
-
-                } catch (Exception e) {
-
-                }
-
-                miArray.add(product);
-
+            } catch (Exception e) {
+                c1.addItem(rs.getString("what"));
             }
-        } catch (Exception e) {
-
+            
+            miArray.add(product);
+            
         }
-        return miArray;
+    } catch (Exception e) {
+        c1.addItem("Check This Error");
+    }
+    return miArray;
     }
     
 

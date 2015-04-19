@@ -19,11 +19,12 @@ public class Producto {
     String fechaUltimoUpdate;
     String cantidad;
     String unidadMedida;
+    String nombre;
 
     public Producto() {
     }
 
-    public Producto(String codigoArticulo, String familia, String precioDolar, String usuarioInserta, String usuarioActualiza, String fechaUltimoUpdate, String cantidad, String unidadMedida) {
+    public Producto(String codigoArticulo, String familia, String precioDolar, String usuarioInserta, String usuarioActualiza, String fechaUltimoUpdate, String cantidad, String unidadMedida, String nombre) {
         this.codigoArticulo = codigoArticulo;
         this.familia = familia;
         this.precioDolar = precioDolar;
@@ -32,8 +33,18 @@ public class Producto {
         this.fechaUltimoUpdate = fechaUltimoUpdate;
         this.cantidad = cantidad;
         this.unidadMedida = unidadMedida;
+        this.nombre = nombre;
     }
 
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    
     public String getCodigoArticulo() {
         return codigoArticulo;
     }

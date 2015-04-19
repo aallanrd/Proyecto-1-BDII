@@ -20,11 +20,12 @@ public class FacturaCompra {
     String fechaCompra;
     String unidadMedida;    
     String cantidad;
+    String nombre;
 
     public FacturaCompra() {
     }
 
-    public FacturaCompra(String numeroFactura, String codigoArticulo, String precioArticulo, String usuarioInserta, String proveedor, String fechaCompra, String unidadMedida, String cantidad) {
+    public FacturaCompra(String numeroFactura, String codigoArticulo, String precioArticulo, String usuarioInserta, String proveedor, String fechaCompra, String unidadMedida, String cantidad,String nombre) {
         this.numeroFactura = numeroFactura;
         this.codigoArticulo = codigoArticulo;
         this.precioArticulo = precioArticulo;
@@ -33,6 +34,15 @@ public class FacturaCompra {
         this.fechaCompra = fechaCompra;
         this.unidadMedida = unidadMedida;
         this.cantidad = cantidad;
+        this.nombre = nombre;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
     }
 
     public String getNumeroFactura() {
