@@ -55,13 +55,11 @@ public class FacturaCompra extends javax.swing.JDialog {
     private void LoadPreData(){
        
              clearTable();
-             // allProductos = control.getAllProducts(comboProduct);
+             allProductos = control.getAllProducts(comboProduct);
              loadUnidades = control.loadUnidades(jComboBox2);
              loadFacturaCompra = control.loadFacturaCompra(jTable1);
              allProveedores = control.getAllProveedores(jComboBox3);
-            
-             
-            
+                
     } 
     
     

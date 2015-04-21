@@ -51,30 +51,31 @@ public class ControllerUsuarios {
         list.removeAll();
         ArrayList<Users> miArray = new ArrayList<>();
         try {
-            ResultSet rs = miApp.statement.executeQuery("select * from usuarios");
+            ResultSet rs = miApp.statement.executeQuery("select * from clientes");
             
+       
             while (rs.next()) {
 
-                
+             JOptionPane.showMessageDialog(null, "Si encontre");
                 Users user = new Users();
                 // read the result set
                 try {
                     list.add(rs.getString("nombre"));
                     user.setNombre(rs.getString("nombre"));
-                    user.setCedula(rs.getString("cedula"));
-                    user.setUsername(rs.getString("nombre_usuario"));
-                    user.setPass(rs.getString("contraseña"));
-                    user.setTipo(rs.getString("tipo"));
+                    user.setCedula(rs.getString("cedjuridica"));
+                   // user.setUsername(rs.getString("nombre_usuario"));
+                    user.setPass(rs.getString("nombre"));
+                   // user.setTipo(rs.getString("tipo"));
 
                 } catch (Exception e) {
-
+                     JOptionPane.showMessageDialog(null, "Error Adding List");
                 }
 
                 miArray.add(user);
 
             }
         } catch (Exception e) {
-
+         JOptionPane.showMessageDialog(null, "Error de Conexion " + e);
         }
         return miArray;
     }
